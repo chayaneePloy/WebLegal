@@ -1,0 +1,303 @@
+.position-fixed{
+    position: fixed;
+}
+
+.top{
+    top:0;
+}
+
+.dark-background{
+    background-color: #484A55;
+}
+
+.white-background{
+    background-color: #fff;
+}
+
+.font-black{
+    color: #000;
+}
+
+.font-white{
+    color: #fff;
+}
+
+.font-light-dark{
+    color: #484A55;
+}
+
+.width-height-100{
+    width: 100%;
+    height: 100%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.width-90{
+    width: 90%;
+}
+
+.width-70{
+    width: 70%;
+}
+
+.width-60{
+    width: 60%;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.width-49{
+    width: 49%;
+}
+
+.width-40{
+    width: 40%;
+}
+
+.width-33{
+    width: 33%;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.margin-bottom-40px{
+    margin-bottom: 40px;
+}
+
+.margin-right-5px{
+    margin-right: 5px;
+}
+
+.block{
+    display: block;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0;
+}
+
+.menu-style{
+    padding: 0;
+    list-style: none;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.float-left{
+    float: left;
+}
+
+.font-300{
+    font-size: 300%;
+}
+
+.font-200{
+    font-size: 200%;
+}
+
+.font-65{
+    font-size: 65%;
+}
+
+.btn{
+    border:2px solid #F39200;
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: #F39200;
+    color: #fff;
+}
+
+.btn:focus{
+    background-color: #F39200;
+    color: #fff;
+}
+
+.current{
+    border-bottom: solid 2px #F39200;
+}
+
+.vertical-center{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mobile{
+    display: none;
+}
+
+.mcs-link{
+    border: 2px solid #F39200;
+    padding: .5rem .8rem;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.mcs-link:hover{
+    background-color: #F39200;
+    color: #fff;
+}
+
+.mcs-link:focus{
+    background-color: #F39200;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .mcs-link{
+        padding: .2rem .8rem;
+    }
+}
+
+@media (max-width: 500px){
+    .mobile{
+        display: initial;
+    }
+
+    .inline-block{
+        display: block;
+    }
+
+    .text-right{
+        text-align: center;
+    }
+
+    .text-right{
+        text-align: right;
+    }
+
+    .text-left{
+        text-align: center;
+    }
+
+    .width-90{
+        width: 95%;
+        margin: auto;
+    }
+
+    .width-70{
+        width: 70%;
+    }
+
+    .width-60{
+        width: 100%;
+    }
+
+    .width-50{
+        width: 100%;
+    }
+
+    .width-49{
+        width: 100%;
+    }
+
+    .width-40{
+        width: 100%;
+    }
+
+    .width-33{
+        width: 100%;
+    }
+
+    .font-300{
+        font-size: 150%;
+    }
+}
+
+
+@media (max-width: 736px) and (orientation: landscape) {
+    .mobile{
+        display: none;
+    }
+}
+/***** add by ploy***/
+
+
+.bg-navbar{
+    background: linear-gradient(#151517, #514f4f42);
+}/* ทำสีเมนูให้มองเห้ฯชัดขึ้น*/
+.mobile ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}/* กำหนดให้ ul ไม่มีจุด และอยู่ตรงกลาง*/
+.mobile li{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    width: 100vw;
+}/* กำหนดให้ li อยู่ตรงกลาง กว้าง100 และขนาดความกว้างของช่อง 30px*/
+.mobile a{
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: rgba(123, 124, 128, 0.288);
+    transition: 0.3s;
+}
+/*ทำให้พื้นหลังมีสี เพื่อการมองเห็นได้ชัด ตัวอักษรสีขาว */
+.mobile li a {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+.mobile a:hover{
+    background-color: #c5850f;
+}
+.mobile li ul{
+    position: absolute;
+    display:none;
+    width: inherit;
+} /*ทำให้ดรอปดาวหายไป*/
+.mobile li:hover ul{
+    display: block;
+}
