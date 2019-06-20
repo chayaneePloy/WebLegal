@@ -289,7 +289,7 @@
     width: 100%;
     font-size: 15px;
     text-align: center;
-}
+}/*ทำให้li a อยู่ตรงกลาง */
 .mobile a:hover{
     background-color: #c5850f;
 }
