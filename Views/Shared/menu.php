@@ -3,18 +3,19 @@
         <h1 id="logo">Clearvision Legal</h1>
     </section>
     <section class="width-49 inline-block">
-        <ul id="menu" class="menu-style no-margin ">
-            
-                    <div class="mobile">
-                        <li><a href ="#slider">Home</a>
-                            <ul>
-                            <li><a href ="#about">About</a></li>
-                            <li><a href="#service-container">Services</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            </ul>
-                            </li>
-                          
+        <ul id="menu" class="menu-style no-margin "> 
+     
+                <div class="dropdown">
+        <button id="myBtn" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                <a href ="#slider">Home</a>
+                <a href ="#about">About</a>
+                <a href="#service-container">Services</a>
+                <a href="#contact">Contact</a>
+                </div>
+                </div>
         </ul>
+
             <div id="sub-menu">
                 <nav class="text-right">
                     <a href="#slider" class="main-menu current" onclick=" return ScrollTo('slider')">Home</a>
@@ -26,3 +27,9 @@
         </ul>
     </section>
 </header>
+<script>
+document.getElementById("myBtn").onclick = function() {myFunction()};
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>

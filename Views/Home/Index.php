@@ -8,6 +8,7 @@
     <link href="../../Content/Css/mainpage.css" type="text/css" rel="stylesheet"/>
     <link href="../../Content/Css/Class.css" type="text/css" rel="stylesheet"/>
     <link href="../../Content/Css/contact.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
